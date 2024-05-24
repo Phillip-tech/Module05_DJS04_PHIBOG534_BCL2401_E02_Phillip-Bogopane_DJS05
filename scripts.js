@@ -5,3 +5,9 @@ let state = {
     count: 0
   };
   
+  // Action types
+  const ACTIONS = {
+    ADD: "ADD",
+    SUBTRACT: "SUBTRACT",
+    RESET: "RESET"
+  };
