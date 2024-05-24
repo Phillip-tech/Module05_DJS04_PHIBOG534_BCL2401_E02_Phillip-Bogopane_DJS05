@@ -46,3 +46,9 @@ let state = {
   subscribe((currentState) => {
     console.log("Current State:", currentState);
   });
+
+  // Scenario 2: Incrementing the Counter
+  console.log("\nScenario 2:");
+  console.log("Incrementing the Counter");
+  dispatch({ type: ACTIONS.ADD });
+  dispatch({ type: ACTIONS.ADD });
