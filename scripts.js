@@ -57,3 +57,8 @@ let state = {
   console.log("\nScenario 3:");
   console.log("Decrementing the Counter");
   dispatch({ type: ACTIONS.SUBTRACT });
+
+   // Scenario 4: Resetting the Counter
+   console.log("\nScenario 4:");
+   console.log("Resetting the Counter");
+   dispatch({ type: ACTIONS.RESET });
