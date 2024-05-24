@@ -39,3 +39,10 @@ let state = {
     // callback immediately after subscription
     callback(state);
   };
+
+  // Test scenarios
+  console.log("Scenario 1:");
+  console.log("Initial State Verification");
+  subscribe((currentState) => {
+    console.log("Current State:", currentState);
+  });
