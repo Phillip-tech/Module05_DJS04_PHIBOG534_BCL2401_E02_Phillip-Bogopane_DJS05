@@ -34,3 +34,8 @@ let state = {
     
     console.log("State after dispatch:", state);
   };
+
+  const subscribe = (callback) => {
+    // callback immediately after subscription
+    callback(state);
+  };
