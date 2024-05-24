@@ -52,3 +52,8 @@ let state = {
   console.log("Incrementing the Counter");
   dispatch({ type: ACTIONS.ADD });
   dispatch({ type: ACTIONS.ADD });
+
+  // Scenario 3: Decrementing the Counter
+  console.log("\nScenario 3:");
+  console.log("Decrementing the Counter");
+  dispatch({ type: ACTIONS.SUBTRACT });
